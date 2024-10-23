@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="Phoneworld.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label FontSize="20" Text="Enter a Phoneword" />
+        <Entry Text="55 16 99305bc" x:Name="PhoneNumberText" />
+        <Button
+            Clicked="OnTranslate"
+            Text="Translate"
+            x:Name="TranslateButton" />
+        <Button
+            Clicked="OnCall"
+            IsEnabled="false"
+            Text="Call"
+            x:Name="CallButton" />
+    </VerticalStackLayout>
+
+</ContentPage>
