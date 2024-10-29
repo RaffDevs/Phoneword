@@ -24,7 +24,7 @@
         <ApplicationTitle>Phoneworld</ApplicationTitle>
 
         <!-- App Identifier -->
-        <ApplicationId>com.companyname.phoneworld</ApplicationId>
+        <ApplicationId>com.rveronezdeveloper.phoneworld</ApplicationId>
 
         <!-- Versions -->
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>

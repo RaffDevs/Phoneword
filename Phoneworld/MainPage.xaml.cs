@@ -54,4 +54,9 @@ public partial class MainPage : ContentPage
             CallButton.Text = "Call";
         }
     }
+
+    private async void TapGestureRecognizer_OnTapped(object? sender, TappedEventArgs e)
+    {
+        await this.DisplayAlert("OnTap", "Tapped", "OK");
+    }
 }
